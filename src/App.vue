@@ -20,12 +20,12 @@ body {
 #app {
   font-family: Mulish;
   font-style: normal;
-  padding: 0;
-  background: #ADACFC;
-  width: 100vw;
+  /* padding: 0; */
+  /* background: #ADACFC; */
+  /* width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 </style>
