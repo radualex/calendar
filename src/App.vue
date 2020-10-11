@@ -1,0 +1,31 @@
+<template>
+  <DatePicker />
+</template>
+
+<script>
+import DatePicker from "./components/DatePicker.vue";
+export default {
+  name: "App",
+  components: {
+    DatePicker,
+  },
+};
+</script>
+
+<style>
+body {
+  margin: 0;
+}
+
+#app {
+  font-family: Mulish;
+  font-style: normal;
+  padding: 0;
+  background: #ADACFC;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
