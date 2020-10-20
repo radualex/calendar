@@ -1,12 +1,12 @@
 {
   "name": "date-picker-vue3",
-  "version": "0.1.0",
-  "main": "dist/date-picker.common.js",
+  "version": "1.0.0",
+  "main": "./dist/date-picker-vue3.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-package": "vue-cli-service build --target lib --name date-picker ./src/main.js"
+    "build-package": "vue-cli-service build --target lib --name date-picker-vue3 ./src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -45,8 +45,14 @@
   "files": [
     "dist/*",
     "src/*",
+    "public/*",
+    "*.js",
     "*.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radualex/date-picker.git"
+  },
   "keywords": [],
   "description": ""
 }
