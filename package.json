@@ -1,7 +1,10 @@
 {
   "name": "date-picker-vue3",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "./dist/date-picker-vue3.common.js",
+  "author": "Radu-Alexandru Stoica <radu.stoica1994@gmail.com>",
+  "license": "MIT",
+  "description": "simple date-picker using vue 3",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -51,8 +54,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/radualex/date-picker.git"
+    "url": "https://github.com/radualex/calendar.git"
   },
-  "keywords": [],
-  "description": ""
+  "keywords": [
+    "date-picker",
+    "calendar",
+    "vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/radualex/calendar/issues"
+  }
 }
