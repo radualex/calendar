@@ -1,6 +1,6 @@
 {
   "name": "date-picker-vue3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/date-picker-vue3.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
